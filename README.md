@@ -18,7 +18,7 @@ I found two possible fixes. I would add one of these to the docs.
 
 - Add the vendor folder to the `content` array in `tailwind.config.js`.
 
-```
+```js
 module.exports = {
   content: [
     "./resources/**/*.blade.php",
